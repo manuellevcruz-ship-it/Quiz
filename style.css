@@ -7,57 +7,58 @@
         height: 100vh;
         background-image: url(Pictures/School.png);
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
     .game-container {
-        width: 2000px;
-        height: 320px;
+        width: 200vh;
         background-image: url(Pictures/Box.png);
         background-repeat: no-repeat;
         background-position: center top;
-        background-size: 60%;
+        background-size: 90%;
         border: none;
         padding: 15px;
+        transition: ease 1s;
     }
 
     .question-box {
         height: 100px;
+        transform: translate(3.5%, 17%);
         border: #e74c3c;
         margin-bottom: 100px;
         word-wrap: break-word;
-        padding: 10px;
-        font-size: 18px;
+        padding: 50px;
+        font-size: 35px;
+        max-width: 1000px;
         display: flex;
         white-space: normal;
         align-items: center;
         justify-content: center;
         text-align: center;
+        transition: ease 0.4s;
     }
 
-    .choices {
+    .choices  {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        padding: 10px;
+        grid-template-columns: 2fr 2fr;
+        gap: 30px;
+        padding: 15px 20px;
         cursor: pointer;
-        background: #f5f5f5;
-        border-radius: 16;
-        border: 1px solid chocolate;
+        background: #ffffff;
+        border: 1px solid orangered;
+        border-radius: 1px;
+        text-align: center;
+        transition: ease 0.3s;
     }
 
-    .choice {
-        height: 60px;
-        color: white;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-        font-weight: bold;
+    .choices:hover {
+        background: rgb(232, 190, 174)
     }
 
+    .minecraft-text {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 18px;
+  color: #ffffff;
+    }
 
-    .red { background-color: #e74c3c; }
-    .blue { background-color: #3498db; }
-    .yellow { background-color: #f1c40f; }
-    .green { background-color: #2ecc71; }
-    
