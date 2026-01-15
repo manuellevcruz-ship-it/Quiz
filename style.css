@@ -1,0 +1,63 @@
+   body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(Pictures/School.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .game-container {
+        width: 2000px;
+        height: 320px;
+        background-image: url(Pictures/Box.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 60%;
+        border: none;
+        padding: 15px;
+    }
+
+    .question-box {
+        height: 100px;
+        border: #e74c3c;
+        margin-bottom: 100px;
+        word-wrap: break-word;
+        padding: 10px;
+        font-size: 18px;
+        display: flex;
+        white-space: normal;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .choices {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 10px;
+        cursor: pointer;
+        background: #f5f5f5;
+        border-radius: 16;
+        border: 1px solid chocolate;
+    }
+
+    .choice {
+        height: 60px;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+
+    .red { background-color: #e74c3c; }
+    .blue { background-color: #3498db; }
+    .yellow { background-color: #f1c40f; }
+    .green { background-color: #2ecc71; }
+    
