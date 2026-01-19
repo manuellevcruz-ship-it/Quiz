@@ -22,7 +22,7 @@ const renderQuestion = () => {
     currentQuestion.options.forEach(option => 
     {
         const li = document.createElement("li");
-        li.classList.add("choices");
+        li.classList.add("choice");
         li.textContent = option;
         answerOptions.appendChild(li);
     });
