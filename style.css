@@ -18,7 +18,6 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        overflow: hidden;
     }
 
     .game-container .timer-background img {
@@ -63,7 +62,6 @@
         height: 100%;
         padding: 15px;
         position: relative;
-        overflow: hidden;
         transition: ease 1s;
     }
 
